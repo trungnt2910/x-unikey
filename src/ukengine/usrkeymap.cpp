@@ -27,6 +27,7 @@ using namespace std;
 
 #include <ctype.h>
 #include "usrkeymap.h"
+#include <cstring>
 
 int getLabelIndex(int action);
 void initKeyMap(int keyMap[256]);
