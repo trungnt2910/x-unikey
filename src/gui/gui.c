@@ -42,6 +42,10 @@
 
 #define PROG_NAME "Unikey XIM Simple GUI"
 
+#ifndef WAIT_ANY
+#define WAIT_ANY -1
+#endif
+
 /* using global variables is a very bad way of communication. Must do something better!!! */
 Display *display;
 Window MainWindow, RootWindow;
